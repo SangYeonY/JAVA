@@ -1,0 +1,14 @@
+day18 순서
+
+1. 주말과제 
+  StudentScore.java
+  StudentScoreTest.java  -> 배열로 구현
+  StudentScoreTest2.java -> List로 구현
+ 
+2. 문자열 분리
+   StringTokenTest.java
+   StringSplitTest.java
+   
+3. 마지막 프로그램 예제
+  Word.java
+  MyDictionaryApp.java      

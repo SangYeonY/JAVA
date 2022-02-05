@@ -1,0 +1,23 @@
+day19 인덱스
+
+1. day18 프로젝트의 MyDictionaryApp 을 인터페이스 활용해서 해봅니다.
+   Word.java
+   WordNote.java	- 인터페이스
+   EnglishKoreanNote.java - 인터페이스 구현클래스
+   WordNoteApp.java		- 애플리케이션(App, 응용프로그램)
+   
+   
+2. 익명클래스(Anonymous , 이름이 없는)  
+   - 인터페이스 구현클래스를 별도 파일로 만들지 않고 필요할 때 클래스를 정의하고 객체 생성하는 방법입니다. 
+   RemoteControl.java, WebSearch.java , Animal.java  - 이전 프로젝트 추상클래스와 인터페이스
+   AnonymousTest.java - 익명클래스
+   FuncInterfaceA.java - 함수형 인터페이스,람다식
+   FunctionalInterfaceTest.java - 함수형 인터페이스,람다식
+   
+   
+3. day20 자유 예제 -> 1번의 예제 EnglishKoreanNote.java를 Map을 활용하여 구현해보세요.
+
+	Word.java -> english 필드는 직접 사용하지 않고 , Map 의 key로 대체합니다.
+	Map<String,Word>  : key는 String, Value 는 Word 타입니다.	
+   
+ **** 자바 진도 끝입니다. 자바는 계속 복습이 필요합니다. ****  

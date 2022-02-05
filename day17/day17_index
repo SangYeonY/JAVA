@@ -1,0 +1,46 @@
+day17 순서
+
+1. 인터페이스 연습 예제
+1) 인터페이스
+리모트컨트롤 - 전워ON , 전원OFF, 볼륨조절, 채널변경,..
+웹서치 - 서치 , 재생
+
+2) 클래스 - 위의 인터페이스를 사용(구현)하는 클래스
+스마트TV
+맥북
+:
+
+
+소스 순서 : RemoteControl.java
+		 WebSearch.java
+		 SmartTV.java
+		 SmartMachine.java (SmartTV 와 똑같고 연습용입니다.)
+		 MackBook.java (SmartMachine 상속 클래스)
+		 Day17App1.java(애플리케이션 클래스입니다.)
+		 
+2. 다형성		 
+-객체의 실체는 1가지 그러나 여러가지 타입으로 참조할 수 있습니다.-> 부모클래스(추상클래스 포함) , 인터페이스 때문에 가능합니다.
+-배열과 ArrayList, HashMap 등 자료구조에 저장되는 데이터 형식으로 사용할 수 있습니다.
+-메소드 인자에도 사용될 수 있습니다.
+-다형성을 갖는 객체는 메소드를 오버라이딩(또는 구현) 할 수 있습니다.-> 메소드이름은 1가지이지만 다른 동작을 하도록 합니다.
+:일반적인 상속에는 부모클래스 메소드 재정의
+:추상클래스 또는 인터페이스의 추상메소드를 구현
+
+3. Comparator 인터페이스 구현하여 Member 객체 정렬하기
+   CompareTest.java
+   Member.java
+   MemberAgeAscending.java
+   MemberAgeDescending.java
+   MemberNameAscending.java
+   MemberNameDescending.java
+4. Comparable 인터페이스 구현하여 User 객체 정렬하기
+   User.java
+   CompareTest2.java
+5. 정렬 알고리즘 예시 (정렬 알고리즘은 여러가지 방식이 있습니다.)   
+	sort 패키지 - 정수데이터 정렬 , Member 객체 정렬
+	Comparator 또는 Comparable 인터페이스 없이 정렬하는 알고리즘입니다.
+	
+	
+
+
+		 
