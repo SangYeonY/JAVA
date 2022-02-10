@@ -61,8 +61,11 @@ public class Custom {
 
 	@Override
 	public String toString() {
-		return "[custom_id=" + custom_id + ", name=" + name + ", email=" + email + ", age=" + age + ", reg_date="
-				+ reg_date + "]";
+		return String.format("%-20s",custom_id) + ": "
+				+ String.format("%-20s", name) + ", "
+				+ String.format("%-20s", email) + ", "
+				+ String.format("%-5s", age) 
+				+ "(" + reg_date + ")";
 	}
 	
 	
