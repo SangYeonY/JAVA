@@ -34,13 +34,14 @@ public class SelectTest2 {
 //			System.out.println(rs.getTimestamp("reg_date"));	// 날짜 시간 둘다
 			int i = 0;
 			while(rs.next()) {
-				System.out.println((i+1) + "행 데이터 보기 ---------------------------");
-				System.out.print("custom_id : "+ rs.getString("custom_id")+"\t");
-				System.out.print("name : " + rs.getString("name")+"\t");
-				System.out.print("email : " + rs.getString("email")+"\t");
-				System.out.print("age : " + rs.getInt("age")+"\t");
-				System.out.print("reg_date : " + rs.getTimestamp("reg_date")+"\n");
-				i++;
+				System.out.print(i++ + "행 데이터 보기 ---------------------------");
+				System.out.print(String.format("%-20s", rs.getString("custom_id")));	// 문자열 오른쪽정렬이 기본
+				System.out.print(String.format("%-20s", rs.getString("name")));		// ㄴ - 기호는 왼쪽 정렬
+				System.out.print(String.format("%-20s", rs.getString("email")));
+				System.out.print(String.format("%-5d", rs.getInt("age")));
+				System.out.println(rs.getTimestamp("reg_date"));
+				
+				
 			}
 	
 			pstmt.close();
