@@ -59,7 +59,7 @@ public class VOClassTest {
 			pstmt.close();
 			
 		}catch(SQLException e){
-			
+			System.out.println("SQL 실행 오류 : " + e.getMessage());
 		}
 		OracleConnectUtil.close(conn);
 	}
