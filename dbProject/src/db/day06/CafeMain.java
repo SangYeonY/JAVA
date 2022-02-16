@@ -16,7 +16,7 @@ public class CafeMain {
 		List<Orders> list = ordersdao.selectAll();
 		System.out.println(String.format("%-10s %-15s\t %-10s\t\t%-15s", 
 				"주문번호","메뉴이름","수량","주문날짜"));
-		
+		 
 		for(Orders vo : list)
 			System.out.println(vo);
 	

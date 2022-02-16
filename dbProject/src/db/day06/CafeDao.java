@@ -11,7 +11,7 @@ import db.day01.OracleConnectUtil;
 import db.vo.Cafe;
 
 public class CafeDao {
-
+ 
 	private static CafeDao cafedao = new CafeDao();
 	private CafeDao() {}
 	public static CafeDao getCafeDao() {

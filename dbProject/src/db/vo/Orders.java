@@ -72,7 +72,7 @@ public class Orders {
 	public String toString() {
 		return String.format("%-15s %-15s\t%-15s\t%-10s",ord_seq,pname,cnt,ordertime);
 		}
-	
+	 
 	
 	
 	

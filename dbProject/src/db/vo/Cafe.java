@@ -13,7 +13,7 @@ public class Cafe {
 	}
 
 
-
+ 
 	public String getPname() {
 		return pname;
 	}

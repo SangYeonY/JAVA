@@ -17,7 +17,7 @@ public class OrdersDao {
 	private OrdersDao() {}
 	public static OrdersDao getOrderDao() {
 		return ordersdao;
-	}
+	} 
 	public List<Orders> selectAll(){
 		Connection conn = OracleConnectUtil.connect();
 		String sql = "SELECT * FROM ORDERS o";
